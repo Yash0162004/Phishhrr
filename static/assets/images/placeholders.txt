@@ -1,0 +1,8 @@
+This directory contains placeholder images for the following:
+- services.webp
+- portfolio-1.webp
+- portfolio-2.webp
+- portfolio-3.webp
+- about.webp
+
+Please replace these placeholders with actual images for full functionality.

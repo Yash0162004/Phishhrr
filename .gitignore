@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pickle files
+*.pkl
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# macOS files
+.DS_Store
+
+# Static assets cache
+static/assets/css/
+static/assets/img/
+static/assets/js/
+
+# Data files (optional, if you want to exclude large data files)
+DataFiles/
