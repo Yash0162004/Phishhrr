@@ -2,9 +2,4 @@ Flask
 numpy
 pandas
 scikit-learn
-gunicorn
-requests
-beautifulsoup4>=4.9.3,<4.13
-googlesearch-python==1.1.0
-python-whois
-python-dateutil
+
