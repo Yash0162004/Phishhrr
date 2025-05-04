@@ -10,16 +10,15 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
- 
-  <link href="static/assets/img/newlogo.jpg" rel="apple-touch-icon">
+  <link href="{{ url_for('static', filename='assets/img/newlogo.jpg') }}" rel="apple-touch-icon">
 
   <!-- Vendor CSS Files -->
-  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="static/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="static/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="static/assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/icofont/icofont.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/venobox/venobox.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/aos/aos.css') }}" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Template Main CSS File -->
@@ -61,7 +60,7 @@
         </ul>
       </nav><!-- .nav-menu -->
 
-      <a href="static\assets\Phishing Website Identification.pdf" class="get-started-btn scrollto" download="nofallmagaguide">Download Guide <i class='bx bxs-download'></i></a>
+      <a href="{{ url_for('static', filename='assets/Phishing Website Identification.pdf') }}" class="get-started-btn scrollto" download="nofallmagaguide">Download Guide <i class='bx bxs-download'></i></a>
       <script>
         const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
         const navMenu = document.querySelector('.mobile-nav');
@@ -100,7 +99,7 @@
           {% endif %}
       </p>
       </form> 
-      <img src="static\assets\img\Phishing.gif" class="img-fluid hero-img" alt="" data-aos="zoom-in" data-aos-delay="150"><br><br><br>
+      <img src="{{ url_for('static', filename='assets/img/Phishing.gif') }}" class="img-fluid hero-img" alt="" data-aos="zoom-in" data-aos-delay="150"><br><br><br>
     </div>
   </section><!-- End Hero -->
 
@@ -146,7 +145,7 @@
                 <i class='bx bx-right-arrow-alt icon-arrrow'></i> <b>Smishing:</b> Combine SMS with phishing and you have the technique called smishing. With smishing, attackers send fraudulent text messages in an attempt to gather information like credit card numbers or passwords.<br><br>
                 <i class='bx bx-right-arrow-alt icon-arrrow'></i> <b>Whaling:</b> A whaling attack targets the big fish, or executive-level employees. An attack of this sort often involves more sophisticated social engineering tactics and intelligence gathering to better sell the fake.<br><br>
                 <i class='bx bx-right-arrow-alt icon-arrrow'></i> <b>Vishing:</b> Combine VoIP with phishing and you get vishing. This type of phishing involves calls from a fraudulent person attempting to obtain sensitive information.<br><br>
-                <i class='bx bx-right-arrow-alt icon-arrrow'></i>  <b>Malvertising:</b> Malvertising is malicious advertising that contains active scripts designed to download malware or force unwanted content onto your computer. Exploits in Adobe PDF and Flash are the most common methods used in malvertisements<br><br>
+                <i class='bx bx-chevron-right-arrow-alt icon-arrrow'></i>  <b>Malvertising:</b> Malvertising is malicious advertising that contains active scripts designed to download malware or force unwanted content onto your computer. Exploits in Adobe PDF and Flash are the most common methods used in malvertisements<br><br>
               </p>
             </div>
           </li>              
@@ -200,21 +199,15 @@
   <!-- <div id="preloader"></div> -->
 
   <!-- Vendor JS Files -->
-  <script src="static/assets/vendor/jquery/jquery.min.js"></script>
-  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="static/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="static/assets/vendor/venobox/venobox.min.js"></script>
-  <script src="static/assets/vendor/aos/aos.js"></script>
-  <script>
-    function scrolldiv() {
-        var elem = document.getElementById("about");
-        elem.scrollIntoView();
-    }
-  </script>
+  <script src="{{ url_for('static', filename='assets/vendor/jquery/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/owl.carousel/owl.carousel.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/venobox/venobox.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/aos/aos.js') }}"></script>
 
   <!-- Template Main JS File -->
-  <script src="static/assets/js/main.js"></script>
+  <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
 
 </body>
 
